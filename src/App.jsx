@@ -12,7 +12,7 @@ function App() {
                    <img src={backGround} alt="image-background" className='w-full absolute -z-10'/>
             </header>
             <main className='w-9/12 xl:w-4/12 top-20 mx-auto py-16'>
-                <div id='modal' className=' p-6 h-auto rounded-xl shadow-xl bg-white' >
+                <div id='modal' className=' p-6 h-auto rounded-xl shadow-xl bg-white w-[348px] sm:w-auto my-0 mx-auto' >
                     <h1 className='text-5xl font-bold text-principal flex items-center gap-8 mb-8'> 
                     <span>
                     <img src={starIcon} alt="icon" />
